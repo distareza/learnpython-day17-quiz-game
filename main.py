@@ -15,4 +15,4 @@ while quiz_brain.still_have_question():
     print("")
 
 print("You've completed the quiz")
-print(f"Your final score was : {quiz_brain.score}/{quiz_brain.question_number}")
+print(f"Your final score was : {quiz_brain.score}/{len(quiz_brain.question_list)}")
